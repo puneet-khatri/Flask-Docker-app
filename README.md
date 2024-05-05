@@ -62,29 +62,6 @@ This section details the process of building a GitOps pipeline for automated dep
 * Once the updated manifests were committed and pushed to the Git repository, Argo CD automatically detected the changes and deployed the updated application to the Kubernetes cluster.
 
 **Challenges and Solutions:**
-You're absolutely right about the tone in the "Challenges and Solutions" section. While the current approach provides context, using phrases like "you did this" or "you encountered this" might not be ideal for an assignment submission.
-
-Here's how we can improve it to maintain a professional and objective tone:
-
-**1. Rephrase Actions:**
-
-Instead of "you encountered" or "you added," use phrases like:
-
-* **"The initial setup faced a challenge..."**
-* **"A permission error was encountered..."**
-* **"To resolve the permission issue, the user was added..."**
-
-**2. Focus on the Process:**
-
-Shift the focus to describing the challenges and solutions themselves rather than stating actions taken by a specific person.
-
-**3. Emphasize Learnings:**
-
-Frame the challenges as learning opportunities. For example, instead of simply saying "Minikube requires Linux," highlight the importance of checking environment compatibility before installation.
-
-Here's a revised example incorporating these suggestions:
-
-**Challenges and Solutions:**
 
 **1. Setting Up a Kubernetes Cluster:**
 
@@ -100,8 +77,6 @@ Here's a revised example incorporating these suggestions:
 
 - **Minikube and Docker Desktop Resource Conflict:** An AMD-V virtualization error arose due to conflicting resource usage between Minikube and Docker Desktop. Closing Docker Desktop freed up the necessary resources for Minikube to function. This highlights the potential for resource conflicts between containerization tools and virtual machine management software.
 
-This revised version provides a more professional and informative tone while retaining the valuable information about the challenges and solutions encountered during the assignment.
-
 **4. Argo CD Connection Timeout:**
 
 - **Challenge:** A persistent connection timeout occurred when accessing the Argo CD web interface. This could be attributed to various factors, including:
@@ -115,7 +90,7 @@ This revised version provides a more professional and informative tone while ret
     
 ## Task 3: Implementing a Canary Release with Argo Rollouts (Limited by Local Resources)
 
-Due to resource constraints on the local development machine, a full implementation of a canary release with Argo Rollouts wasn't feasible. These limitations, as you experienced during deployment, could include:
+Due to resource constraints on the local development machine, a full implementation of a canary release with Argo Rollouts wasn't feasible. These limitations, as i experienced during deployment, could include:
 
 * **Limited CPU/Memory Availability:** Minikube and Argo CD require a certain amount of system resources to run effectively. A low-end machine might struggle to handle both simultaneously while maintaining stability.
 * **Thermal Throttling:** As mentioned, overheating every 15 minutes indicates potential resource limitations on the laptop. This can significantly impact the performance of Minikube and Argo CD, hindering the stability required for a canary release.
