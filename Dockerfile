@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM puneetkhatri2000/flask-app:1.0
+FROM python:3.10
 
 EXPOSE 5000
 
