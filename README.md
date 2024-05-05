@@ -1,4 +1,4 @@
-## DevOps Internship Assignment: GitOps with Argo CD and Canary Rollouts
+# DevOps Internship Assignment: GitOps with Argo CD and Canary Rollouts
 
 This document details the steps taken to complete the DevOps internship assignment, focusing on GitOps principles, Argo CD for continuous deployment, and Argo Rollouts for advanced deployment strategies. Due to resource limitations on the local machine, the canary release tasks (Task 3) were not fully executed. However, explanations and potential solutions are provided.
 
