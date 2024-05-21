@@ -131,7 +131,6 @@ Once the assignment is complete, it's essential to clean up any resources create
 * Dockerizing a Flask App ([https://www.freecodecamp.org/news/docker-development-workflow-a-guide-with-flask-and-postgres-db1a1843044a/](https://www.freecodecamp.org/news/docker-development-workflow-a-guide-with-flask-and-postgres-db1a1843044a/))
 * Argo CD Best Practices ([https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/](https://argo-cd.readthedocs.io/en/stable/operator-manual/declarative-setup/))
 * Deploying to Kubernetes using Argo CD and GitOps ([https://www.digitalocean.com/community/developer-center/implementing-gitops-using-argo-cd](https://www.digitalocean.com/community/developer-center/implementing-gitops-using-argo-cd))
-* Argo CD Repository (My Workspace): [Replace with your actual repository link]
 * Argo Rollouts Installation Guide ([https://argo-rollouts.readthedocs.io/en/stable/installation/](https://argo-rollouts.readthedocs.io/en/stable/installation/))
 * Argo CD Installation Tutorial (YouTube): [https://www.youtube.com/watch?v=MeU5_k9ssrs](https://www.youtube.com/watch?v=MeU5_k9ssrs) (by Fatih Koc)
 * Argo Rollouts Tutorial (YouTube): [https://www.youtube.com/watch?v=MeU5_k9ssrs](https://www.youtube.com/watch?v=MeU5_k9ssrs) (by Jeff Morris)
